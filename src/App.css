@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=M+PLUS+1:wght@100..900&display=swap');
+
+body{
+  background:linear-gradient(45deg, black, #16002b);
+  height: 100vh;
+  background-size: cover;
+  font-family: "M PLUS 1";
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  background: red;
+  width: 0rem;
+}
+
+.connectwalletbtn{
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.062);
+  padding: 0 1rem;
+  border-radius: 4rem;
+}
+.connectwalletbtn:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.123);
+
+
+
+}
+.connectwalletbtn h1{
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 0.2rem;
+  font-family: "M PLUS 1";
+
+}
+.connectwalletbtn svg{
+  padding: 0;
+  margin:auto;
+  background-color: transparent !important;
+  height: 1rem !important;
+}
+.header{
+  padding: 0 2vw;
+  width: 80vw;
+  /* border: 1px solid #9292923b; */
+  height: 9vh;
+  margin: 2vh AUTO;
+  display: flex;
+  align-items: center;
+  background: #ffffff0a;
+  border-radius: 1rem;
+  color: white;
+  justify-content: space-between;
+  font-size: 0.6rem;
+  font-family: 'sephora';
+}
+@font-face {
+  font-family: 'Sephora';
+  src: url('Sephora.ttf');
+}
+.header h1{
+  font-weight: 300;
+}
+
+.header svg{
+  height: 4vh;
+  background-color: rgba(255, 255, 255, 0.062);
+  border-radius: 1rem;
+  padding: 1.5vh;
+  width: auto;
+}
+
+#chatDiv{
+  height: 72vh;
+  padding: 0 15vw;
+  width: 70vw;
+  overflow-y: scroll;
+  /* backdrop-filter: blur(5rem); */
+  /* background-color: #00000066; */
+}
+.subHeader{
+  height: 5vh;
+  width: 100vw;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+}
+.subHeader h2{
+  margin: auto;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  background: #16002bcc;
+  border: 2px solid #8e50e86e;
+  color: #a586bf;
+  padding: 0.2rem 1rem;
+  /* font-weight: 100; */
+}
+
+.inputFooter{
+    height: 8vh;
+    width: 70vw;
+    display: flex;
+    border-radius: 0.6rem;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 0rem;
+    align-items: center;
+}
+
+.inputFooter input{
+  width: 85%;
+  max-width: 85%;
+  border: none;
+  padding: 0 2%;
+  height: 8vh;
+  margin: auto 1rem;
+  border-radius: 0.5rem;
+  background: #ffffff0a;
+  resize: none;
+  font-family: "M PLUS 1";
+  color: white;
+  font-size: 1rem;
+}
+
+.inputFooter input:focus{
+ border: 1px solid rgba(255, 255, 255, 0.11);
+  outline: none;
+}
+.inputFooter svg{
+  background-color: #ffffff0a;
+  height: 3vh;
+  width: auto;
+  color: white;
+  padding: 1rem;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.messageBot{
+    background: #2d2d2d52;
+    margin: 2vh 0;
+    margin-right: auto;
+    max-width: 70%;
+    margin-left: 1rem;
+    /* border: 1px solid #303030d1; */
+    border-radius: 2rem;
+    color: white;
+    padding: 0.1rem;
+    padding-left: 1rem;
+    border-bottom-left-radius: 0;
+    transition: 0.2s ease;
+    min-height: 3rem;
+}
+.botmessageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botmessageContainer img{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: hue-rotate(52deg);
+
+}
+
+.messageUser{
+    background: #884edd;
+    margin: 2vh 0;
+    margin-left: auto;
+    max-width: 50%;
+    margin-right: 1rem;
+    width: fit-content;
+    border-radius: 2rem;
+    overflow: hidden;
+    color: white;
+    /* border: 1px solid #ffffff24; */
+    padding: 0.1rem;
+    padding-left: 1rem;
+    border-bottom-right-radius: 0;
+    transition: 0.2s ease;
+}
+.messageUser:hover{
+  background: rgba(0, 0, 0, 0.63);
+/*transform: scale(0.95);*/
+}
+
+.messageBot:hover{
+  background: rgba(0, 0, 0, 0.63);
+/*transform: scale(0.95);*/
+}
+
+
+.messageBot h1, .messageUser h1{
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0.6rem;
+}
+
+.messageBot h2, .messageUser h2{
+  margin: 1vh 0;
+}
