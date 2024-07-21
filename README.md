@@ -38,7 +38,7 @@ To install CRAIBOT on your machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Vansh-Choudhary/craibot.git
+   git clone https://github.com/Vansh-Choudhary/craibot-ai.git
    ```
 2. Navigate to the project directory:
    ```bash
